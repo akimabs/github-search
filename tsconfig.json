@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "paths": {
+      "env": ["env.ts"],
+      "app/*": ["src/*"],
+      "types": ["types/"]
+    },
+    "baseUrl": ".",
+    "module": "commonjs",
+    "target": "es6",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "lib": ["dom", "esnext"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
+    "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
+    // "incremental": true,                   /* Enable incremental compilation */
+    // "lib": [],                             /* Specify library files to be included in the compilation. */
+    // "allowJs": true /* Allow javascript files to be compiled. */,
+    // "checkJs": true,                       /* Report errors in .js files. */
+    // "declaration": true,                   /* Generates corresponding '.d.ts' file. */
+    // "declarationMap": true,                /* Generates a sourcemap for each corresponding '.d.ts' file. */
+    // "sourceMap": true,                     /* Generates corresponding '.map' file. */
+    // "outFile": "./",                       /* Concatenate and emit output to single file. */
+    // "outDir": "./",                        /* Redirect output structure to the directory. */
+    // "rootDir": "./",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+    // "composite": true,                     /* Enable project compilation */
+    // "tsBuildInfoFile": "./",               /* Specify file to store incremental compilation information */
+    // "removeComments": true,                /* Do not emit comments to output. */
+    // "noEmit": true,                        /* Do not emit outputs. */
+    // "importHelpers": true,                 /* Import emit helpers from 'tslib'. */
+    // "downlevelIteration": true,            /* Provide full support for iterables in 'for-of', spread, and destructuring when targeting 'ES5' or 'ES3'. */
+    // "isolatedModules": true,               /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
+    /* Strict Type-Checking Options */
+    "noImplicitAny": false /* Raise error on expressions and declarations with an implied 'any' type. */,
+    // "strictNullChecks": true, /* Enable strict null checks. */
+    "strictFunctionTypes": true /* Enable strict checking of function types. */
+  },
+  "include": ["src", "types/*"],
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"]
+}

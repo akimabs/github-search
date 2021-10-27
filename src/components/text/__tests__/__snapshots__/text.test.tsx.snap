@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Rendering should match to snapshot - Text: Text snapshot 1`] = `
+Object {
+  "TextWithSizeCaption": <Text
+    maxFontSizeMultiplier={1}
+    minimumFontScale={12}
+    style={
+      Object {
+        "fontSize": 27,
+        "textAlign": "left",
+      }
+    }
+  >
+    Test text
+  </Text>,
+  "TextWithSizeDescription": <Text
+    maxFontSizeMultiplier={1}
+    minimumFontScale={12}
+    style={
+      Object {
+        "fontSize": 24,
+        "textAlign": "left",
+      }
+    }
+  >
+    Test text
+  </Text>,
+  "TextWithSizeLargeTitle": <Text
+    maxFontSizeMultiplier={1}
+    minimumFontScale={12}
+    style={
+      Object {
+        "fontSize": 47,
+        "textAlign": "left",
+      }
+    }
+  >
+    Test text
+  </Text>,
+  "TextWithSizeSubtitle": <Text
+    maxFontSizeMultiplier={1}
+    minimumFontScale={12}
+    style={
+      Object {
+        "fontSize": 31,
+        "textAlign": "left",
+      }
+    }
+  >
+    Test text
+  </Text>,
+  "TextWithSizeTitle": <Text
+    maxFontSizeMultiplier={1}
+    minimumFontScale={12}
+    style={
+      Object {
+        "fontSize": 39,
+        "textAlign": "left",
+      }
+    }
+  >
+    Test text
+  </Text>,
+  "TextWithStyle": <Text
+    maxFontSizeMultiplier={1}
+    minimumFontScale={12}
+    style={
+      Object {
+        "color": "red",
+        "fontSize": 31,
+        "textAlign": "left",
+      }
+    }
+  >
+    Test text
+  </Text>,
+}
+`;
